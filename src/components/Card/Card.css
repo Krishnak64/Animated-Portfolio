@@ -15,7 +15,7 @@
     cursor: pointer;
     flex-shrink: 0;
     padding: 10px;
-    
+    overflow: hidden;
 }
 
 .card:hover {
