@@ -22,7 +22,7 @@ function About() {
       stagger:1,
       scrollTrigger: {
         trigger: ".circle",
-        scroll: "body",
+        // scroll: "body",
         scrub:2,
         start: "top 60%",
         end: "top 30%"
@@ -38,7 +38,6 @@ function About() {
         trigger: ".line",
         scroll: "body",
         scrub:2,
-        markers:true,
         start: "top 50%",
         end: "top 30%"
       }

@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    overflow: none;
+    overflow: hidden;
 }
 
 .leftabout {
@@ -68,7 +68,8 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 120px; /*60*/
+    margin-bottom: 100px;
 }
 
 @media (max-width:750px) {
@@ -85,5 +86,6 @@
         width: 100%;
         margin-top: 220px;
         margin-bottom: 170px;
+        padding-right: 60px;
     }
 }
